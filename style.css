@@ -15,7 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3vh;
+    margin-top: 2vh;
 }
 #input_field{
     margin-top: 12vh;
@@ -61,7 +61,6 @@ input[type=checkbox]{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2vh;
 }
 #login {
     display: flex;
@@ -95,7 +94,7 @@ input[type=checkbox]{
     display: flex;
     justify-content: end;
     align-items: end;
-    width: 100%;
+    width: 100vh;
 }
 span{
     color: #ccc;
