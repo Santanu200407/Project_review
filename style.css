@@ -1,0 +1,125 @@
+
+#container {
+    height: 75vh;
+    width: 59vh; 
+    background: url(image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue; 
+}
+
+#contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+}
+#input_field{
+    margin-top: 12vh;
+}
+
+form {
+    width: 50%;
+}
+
+#signin {
+    text-align: center;
+    color: white;
+}
+#exit_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#exit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    border-radius: 50%;
+    width: 13vh;
+    height: 12vh;
+    background-color: #042549;
+    color:white;
+    box-shadow: 0vh 0vh 0vh 1vh rgb(188, 229, 243);
+}
+#display-container{
+    height:5vh;
+    width: 100%;
+    color: white;
+}
+input[type=checkbox]{
+    accent-color: white;
+}
+#conditions{
+    color: white;
+}
+#conditions_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+}
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid black; /* Border color */
+    border-radius: 50px; /* Rounded edges */
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    width: 80px;
+}
+#login_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icontainer{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 95%;
+}
+#instruction{
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+}
+span{
+    color: #ccc;
+}
+#logic{
+    color: white;
+}
+input[type=text],input[type=password]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #c5b1b1;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+    color: white;
+}
+
+input::placeholder {
+    color: #ccc;
+}
+
+input:focus {
+    border-bottom-color: #1e3a8a;
+}
+
